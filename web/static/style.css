@@ -1,0 +1,85 @@
+body {
+width: 100vw;
+height: 100vh;
+background-size: cover;
+background-color: #111111;
+background-image: linear-gradient(
+  32deg,
+  rgba(8, 8, 8, 0.74) 30px,
+  transparent
+);
+background-size: 60px 60px;
+background-position: -5px -5px;
+}
+
+.container {
+display: flex;
+justify-content: center;
+
+width: 100%;
+height: 100%;
+
+}
+
+.main {
+border-radius: 50px;
+background: #e0e0e0;
+box-shadow:  20px 20px 60px #bebebe,
+         -20px -20px 60px #ffffff;
+}
+
+.app {
+height: 450px;
+margin: 50px;
+margin-top: 120px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.title {
+
+display: flex;
+justify-content: center;
+
+margin: 140px;
+margin-bottom: 10px;
+margin-top: 20px;
+}
+
+.teams {
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+margin: 20px;
+margin-top: 10px;
+}
+
+.round-divide {
+    margin: 20px;
+}
+
+.team-box {
+width: 200px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin: 20px;
+font-size: 1.3rem;
+}
+
+.result {
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+margin: 20px;
+}
+
+.text-h {
+font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.ce {
+z: 100
+}
+
